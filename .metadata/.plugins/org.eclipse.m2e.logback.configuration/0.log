@@ -1,0 +1,22 @@
+2016-11-02 11:27:21,357 [Worker-2] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2016-11-02 11:29:03,400 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: org.deeplearning4j:deeplearning4j-examples:0.4-rc0-SNAPSHOT @ /home/sandeep/workspace/dl4j/dl4j-0.4-examples/pom.xml.
+2016-11-02 11:29:13,733 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /deeplearning4j-examples/src/main/java
+2016-11-02 11:29:13,734 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /deeplearning4j-examples/src/main/resources
+2016-11-02 11:29:13,735 [Worker-14] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /deeplearning4j-examples/src/test/java
+2016-11-02 11:29:13,828 [Worker-14] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 18 sec
+2016-11-02 11:29:16,337 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:29:16,345 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 48 resources
+2016-11-02 11:29:16,498 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:29:16,499 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sandeep/workspace/dl4j/dl4j-0.4-examples/src/test/resources
+2016-11-02 11:29:17,779 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:29:17,781 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2016-11-02 11:29:17,784 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:29:17,784 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sandeep/workspace/dl4j/dl4j-0.4-examples/src/test/resources
+2016-11-02 11:30:15,097 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:30:15,101 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 48 resources
+2016-11-02 11:30:15,103 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:30:15,103 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sandeep/workspace/dl4j/dl4j-0.4-examples/src/test/resources
+2016-11-02 11:30:51,040 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:30:51,042 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 48 resources
+2016-11-02 11:30:51,045 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-11-02 11:30:51,045 [Worker-3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sandeep/workspace/dl4j/dl4j-0.4-examples/src/test/resources
