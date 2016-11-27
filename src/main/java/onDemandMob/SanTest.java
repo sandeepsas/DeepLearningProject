@@ -38,7 +38,7 @@ public class SanTest {
         int lstmLayerSize = 20;					//Number of units in each GravesLSTM layer
         int miniBatchSize = 32;						//Size of mini batch to use when  training
         int tbpttLength = 30;                       //Length for truncated backpropagation through time. i.e., do parameter updates ever 50 characters
-        int numEpochs = 200;							//Total number of training epochs
+        int numEpochs = 100;							//Total number of training epochs
         new Random(12345);
 
         //Get the dataset using the record reader. CSVSequenceRecordReader handles loading/parsing
@@ -120,7 +120,7 @@ public class SanTest {
       for (int i = 0; i < inputMatrix.columns(); i++){
           net.rnnTimeStep(inputMatrix.getColumn(i).transpose());
       }
-      PrintWriter writer = new PrintWriter(new File ("data/proc/rnn_v1_10min.txt"));
+      PrintWriter writer = new PrintWriter(new File ("data/proc/rnn_v1_10min_epoch100.txt"));
         INDArray output2 =  net.rnnTimeStep(Nd4j.create(new double[]{future_prob.get(0)}, new int[]{1, 1},'f'));
         int no_out = future_prob.size();
         for(int k =1;k<no_out;k++){

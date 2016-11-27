@@ -32,10 +32,10 @@ import org.nd4j.linalg.lossfunctions.LossFunctions.LossFunction;
 public class FinalRun {
 
 	public static void main( String[] args ) throws Exception {
-		int lstmLayerSize = 10000;					//Number of units in each GravesLSTM layer
+		int lstmLayerSize = 100;					//Number of units in each GravesLSTM layer
 		int miniBatchSize = 32;						//Size of mini batch to use when  training
 		int tbpttLength = 144;                       //Length for truncated backpropagation through time. i.e., do parameter updates ever 50 characters
-		int numEpochs = 200;							//Total number of training epochs
+		int numEpochs = 2;							//Total number of training epochs
 		new Random(12345);
 
 		System.out.println("\n\nExample Started");
@@ -138,7 +138,7 @@ public class FinalRun {
 		for (int i = 0; i < inputMatrix.columns(); i++){
 			net.rnnTimeStep(inputMatrix.getColumn(i).transpose());
 		}
-		PrintWriter writer = new PrintWriter(new File ("data/sample/rnn_v1_61650.txt"));
+		PrintWriter writer = new PrintWriter(new File ("data/sample/rnn_v1_100links.txt"));
 
 		System.out.println("\n\nExample printing");
 

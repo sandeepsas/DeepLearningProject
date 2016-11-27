@@ -6,7 +6,7 @@ public class NewFirstTester {
 	
 	static int commaCnt = 0;
 	
-	public static long NO_LINKS = 10000;
+	public static long NO_LINKS = 100;
 
 	public static void main(String[] args) throws IOException {
 		
